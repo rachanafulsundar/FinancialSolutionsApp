@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="301dp"
+        android:layout_height="364dp"
+        android:layout_x="18dp"
+        android:layout_y="8dp"
+        android:text="FINANCIAL GOAL CALCULATOR\n
+Financial Goal aims in calculating approximately savings that a person should to do in order to have the specified amount.
+\nAbout 7 Goals are provided –
+ni.Education
+\nii.Buying an asset
+\niii.Residence
+\niv.Marriage
+\nv.Retirement Plan
+\nvi.Foreign Trip
+\nvii.Other
+\nThe user is expected to provide the approximate rate of return and rate of inflation.  Upon providing these values the app returns the approximate amount which he user should save and invest each month in order to achieve the goal."
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#1b137c"/>
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="387dp"
+        android:text="Go to Goal Calculator"
+        android:textColor="#226ed6"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="387dp"
+        android:text="Close Window"
+        android:textColor="#226ed6" />
+
+</AbsoluteLayout>

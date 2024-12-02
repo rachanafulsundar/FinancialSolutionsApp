@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ea0c4"
+
+    tools:context="com.example.dell.splash1.Gallery">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_x="62dp"
+        android:layout_y="25dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/p13" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_x="62dp"
+        android:layout_y="265dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/p11" />
+</AbsoluteLayout>

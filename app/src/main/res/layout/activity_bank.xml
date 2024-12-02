@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2f9f2"
+    tools:context="com.example.dell.splash1.Bank">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_x="33dp"
+        android:layout_y="16dp"
+        android:text="Bank Comparator"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#efa10e"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_x="190dp"
+        android:layout_y="85dp"
+        app:srcCompat="@drawable/b12" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_x="28dp"
+        android:layout_y="85dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/b11" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="342dp"
+        android:layout_height="106dp"
+        android:layout_x="10dp"
+        android:layout_y="390dp"
+        app:srcCompat="@drawable/b15" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_x="28dp"
+        android:layout_y="238dp"
+        app:srcCompat="@drawable/b14" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_x="190dp"
+        android:layout_y="238dp"
+        app:srcCompat="@drawable/b16" />
+
+</AbsoluteLayout>

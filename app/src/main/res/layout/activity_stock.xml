@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sharem"
+    tools:context="com.example.dell.splash1.stock">
+
+    <TextView
+        android:text="STOCK ANALYSIS"
+        android:layout_width="315dp"
+        android:layout_height="65dp"
+        android:layout_x="28dp"
+        android:layout_y="21dp"
+        android:textSize="38dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textView4" />
+
+    <Spinner
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="90dp"
+        android:id="@+id/spinner" />
+
+    <TextView
+        android:text="TODAY'S VALUE:"
+        android:layout_width="337dp"
+        android:layout_height="248dp"
+        android:layout_x="14dp"
+        android:layout_y="137dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000"
+        android:id="@+id/textView5" />
+
+    <Button
+        android:text="GO TO ANALYSIS"
+        android:layout_width="353dp"
+        android:layout_height="58dp"
+        android:layout_x="6dp"
+        android:layout_y="383dp"
+        android:background="#1b137c"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="CHECK LOCATION"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="452dp"
+        android:textSize="20dp"
+        android:background="#1b137c"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button4" />
+</AbsoluteLayout>

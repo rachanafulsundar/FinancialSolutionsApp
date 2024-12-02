@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sharem"
+
+    tools:context="com.example.dell.splash1.Stock_analysis">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/graph"
+        android:layout_x="0dp"
+        android:layout_y="67dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_x="0dp"
+        android:layout_y="20dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:text="Past week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/radioButton4"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Past month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/radioButton5"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Past year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/radioButton6"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <Button
+        android:text="get graph"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="450dp"
+        android:background="#1b137c"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="regression line"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="450dp"
+        android:background="#1b137c"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose time period for analysis:"
+        android:id="@+id/textView"
+        android:textSize="16dp"
+        android:layout_x="10dp"
+        android:layout_y="5dp" />
+
+</AbsoluteLayout>

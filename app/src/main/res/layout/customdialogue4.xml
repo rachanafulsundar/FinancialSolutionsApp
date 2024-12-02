@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="355dp"
+        android:textColor="#226ed6"
+
+        android:text="Go to\nBank Comparator" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="361dp"
+        android:textColor="#226ed6"
+
+        android:text="Close Window" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="301dp"
+        android:layout_height="364dp"
+        android:layout_x="11dp"
+        android:layout_y="10dp"
+        android:text="BANK COMPARATOR
+\nThis module involves comparing interest rates on FD and RD provided by different banks.
+Initially the interest rates for Fixed Deposits and Recurring Deposits is displayed for each and every bank.  Interest rates provided by Banks are time dependent."
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="#e18e06"/>
+
+</AbsoluteLayout>
