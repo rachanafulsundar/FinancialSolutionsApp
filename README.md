@@ -1,7 +1,7 @@
 # Financial Solutions Application
 
 ## Project Overview
-This project is a financial solutions application designed to guide new investors and provide robust financial tools. It features stock price analysis with neural network integration, a currency maximizer, bank service comparisons, and a financial goal calculator. Built with Java, Android, SQL, and Python, it leverages real-time data and technical models to offer insightful and actionable financial advice.
+This project is a financial solutions application designed to guide new investors and provide robust financial tools. It features stock price analysis, a currency maximizer, bank service comparisons, and a financial goal calculator. Built with Java, it leverages real-time data and technical models to offer insightful and actionable financial advice.
 
 ---
 
@@ -70,7 +70,6 @@ The application:
 - **Java**: Core application development.
 - **Android**: User interface and mobile platform.
 - **SQL**: Database management.
-- **Python**: Data analysis and neural network implementation.
 
 ---
 
